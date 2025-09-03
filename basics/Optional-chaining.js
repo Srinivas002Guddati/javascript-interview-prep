@@ -28,7 +28,7 @@ console.log(users.greet?.()); //"Hello Srinivas"
 console.log(users.sayHi?.()); //undefined (no error!)
 
 
-//Accessing Array Elements
+//Accessing array Elements
 
 const arr = [ { name: "Srinivas" }, "JavaScript"];
 console.log(arr[0]?.name); //"JavaScript"
