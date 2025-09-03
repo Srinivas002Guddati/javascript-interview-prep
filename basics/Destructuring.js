@@ -1,3 +1,15 @@
+/*
+Definition:
+Destructuring assignment is a JavaScript expression that enables unpacking values from arrays or properties from objects into separate variables.
+
+
+Why It is useful:
+- It simplifies code that accesses nested data
+- Reduces boilerplate like const name = user.name
+- Makes function parameters cleaner and more expressive
+
+*/
+
 
 // Nested object destructuring with defaults
 
