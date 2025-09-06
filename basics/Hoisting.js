@@ -9,19 +9,19 @@ Hoisting is JavaScript’s behavior of moving declarations (variables, functions
 */
 
 // Function hoisting
-greet(); // ✅ Works: "Hello Srinivas"
+greet(); // Works: "Hello Srinivas"
 
 function greet() {
   console.log("Hello Srinivas");
 }
 
 // Variable hoisting with var
-console.log(x); // ✅ undefined
+console.log(x); //undefined
 var x = 10;
 
 // Variable hoisting with let (TDZ)
 try {
-  console.log(y); // ❌ ReferenceError
+  console.log(y); // ReferenceError
   let y = 20;
 } catch (err) {
   console.log("TDZ Error:", err.message);
@@ -29,7 +29,7 @@ try {
 
 // Function expression (not hoisted)
 try {
-  sayHi(); // ❌ TypeError: sayHi is not a function
+  sayHi(); // TypeError: sayHi is not a function
   var sayHi = function () {
     console.log("Hi!");
   };
