@@ -10,5 +10,10 @@ A curated collection of JavaScript questions and answers for interview preparati
 - Prototypes, Inheritance
 - Coding Challenges
 
+
+## 🔧 Recommended Tools
+
+Check out [tools.md](./tools.md) for a curated list of visualizers, documentation, and platforms that complement this interview prep repo.
+
 ## Author
 Srinivas G — Technical Lead (UI) | 13+ Years Experience | Freelance-Ready
