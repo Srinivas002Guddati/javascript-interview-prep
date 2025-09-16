@@ -36,3 +36,37 @@ try {
 } catch (err) {
   console.log("Expression Error:", err.message);
 }
+
+
+//Hoisting with classes
+
+//Class are hoisted, but they cannot be accessed before they are declared, resulting in a ReferenceError.
+
+const obj = new MyClass();
+
+class MyClass{
+  constructor(){
+    this.name ="Srinivas";
+  }
+}
+
+
+//Accessing variables declared later in loops
+for(var i=0; i<3; i++){
+  setTimeout(function(){
+    console.log(i);
+  }, 100);
+}
+
+//Hoisting in Nested functions
+
+function outer(){
+  console.log(a); //undefined
+  var a = 5;
+  function inner(){
+    console.log(b);
+    var b=10;
+  }
+  inner();
+}
+outer();

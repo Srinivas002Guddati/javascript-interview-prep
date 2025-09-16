@@ -36,3 +36,13 @@ function greet() {
   let name = "Srinivas";
 }
 greet();
+
+
+//example 
+
+hello();
+
+var hello = function(){
+  console.log("Hi!")
+}
+
