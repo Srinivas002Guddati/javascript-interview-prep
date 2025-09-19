@@ -13,7 +13,7 @@
 function print(n){
 
     if(n == 0) return;
-    console.log(n);
+    //console.log(n);
     print(n-1);
 }
 
@@ -25,7 +25,7 @@ let n = 5;
 function print1(x){
 
     if(x > n) return;
-    console.log(x);
+    //console.log(x);
     x = x+1;
     print1(x);
 }
@@ -46,3 +46,40 @@ When to use Recursion:
 2: Tree & Graphs
 3: Backtracking, DP, Divide & Conquer
 */
+
+//Sum of first n numbers
+//5 + 4 + 3 + 2+ 1 = 15;
+
+function sum(n){
+
+    if(n == 0) return 0;
+    return n + sum(n-1);
+}
+
+// console.log(sum(5));
+
+
+//Sum of all elements in an Array
+
+let arr = [5, 3, 2, 0, 11];
+
+function sumOfArray(arr){
+    let sum = 0;
+    for(let i=0; i<arr.length; i++){
+        sum = sum + arr[i]
+    }
+    return sum;
+}
+
+//console.log(sumOfArray(arr));
+
+//Using recursion
+
+function sumArray(n){
+    
+    if(n == 0) return arr[0];
+ return arr[n] + sumArray(n-1);
+   
+}
+console.log(sumArray(arr.length - 1));
+
