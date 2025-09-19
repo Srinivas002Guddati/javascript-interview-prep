@@ -39,3 +39,10 @@ Common Mistakes of Recursion:
  3: Too deep recursion - large inputs
  4: Keeping in mind the time complexity
 */
+
+/*
+When to use Recursion:
+1: Problem can be broken into sub problems
+2: Tree & Graphs
+3: Backtracking, DP, Divide & Conquer
+*/
