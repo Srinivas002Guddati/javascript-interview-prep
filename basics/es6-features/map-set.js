@@ -17,7 +17,13 @@
 
 
 //Map and Sets
-//Map - store key-value pairs where keys can be any data type
+/*
+What is Map()?
+A Map is a collection where:
+- Keys can be of any type — not just strings or symbols.
+- Order is preserved — it remembers the order in which keys were added.
+- Size is easily accessible — via .size property.
+- Built-in methods make it super convenient: .set(), .get(), .has(), .delete(), etc.
 
 /*
 Creating a Map
