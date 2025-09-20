@@ -15,7 +15,9 @@ function removeDuplicates(arr){
             arr[x] = arr[i];
         }
     }
-    return x+1;
+    //if want return unique array
+    return arr.slice(0, x+1);
+    //return x+1;
 }
 
 console.log(removeDuplicates(arr));
