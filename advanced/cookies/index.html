@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Html doc</title>
+    </head>
+    <body>
+        <p>Cookie example!</p>
+
+        <button onclick="setCookie('username', 'Srinivas', 1)">Set Cookie</button>
+        <button onclick="alert(getCookie('username'))">Get Cookie</button>
+
+        <p>Local Storage!</p>
+        <input id="localInput" placeholder="Enter local value" />
+        <button onclick="saveLocal()">Save</button>
+        <button onclick="loadLocal()">Load</button>
+        <button onclick="clearLocal()">Clear</button>
+        <p id="localOutput"></p>
+
+        <p>session Storage!</p>
+        <input id="sessionInput" placeholder="Enter session value" />
+        <button onclick="saveSession()">Save</button>
+        <button onclick="loadSession()">Load</button>
+        <button onclick="clearSession()">Clear</button>
+        <p id="sessionOutput"></p>
+
+        <script src="./cookies.js"></script>
+         <script src="./storage.js"></script>
+    </body>
+</html>
